@@ -34,6 +34,7 @@
   "item.infused_crystals.infused_emeraldium_crystal": "Infused Emeraldium Crystal",
   "item.infused_crystals.infused_coalium_crystal": "Infused Coalium Crystal",
   "item.infused_crystals.infused_diamondium_pickaxe": "Infused Diamondium Pickaxe",
+  "item.infused_crystals.infernal_fuel": "Infernal Fuel",
   "item.infused_crystals.ironium_crystal": "Ironium Crystal",
   "item.infused_crystals.infused_emeraldium_hoe": "Infused Emeraldium Hoe",
   "item.infused_crystals.infused_redstonium_sword": "Infused Redstonium Sword",
@@ -41,6 +42,7 @@
   "item.infused_crystals.infused_lapisium_sword": "Infused Lapisium Sword",
   "item.infused_crystals.infused_lapisium_hoe": "Infused Lapisium Hoe",
   "item.infused_crystals.infusedcoaliumpickaxe": "Infused Coalium Pickaxe",
+  "block.infused_crystals.chargerblock": "Chargerblock",
   "item.infused_crystals.infused_diamondium_shovel": "Infused Diamondium Shovel",
   "item.infused_crystals.diamondium_crystal": "Diamondium Crystal"
 }

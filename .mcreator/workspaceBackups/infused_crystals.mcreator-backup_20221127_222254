@@ -484,6 +484,124 @@
       "locked_code": false,
       "registry_name": "infusedcoaliumpickaxe",
       "path": "~/Tools"
+    },
+    {
+      "name": "Infusedcoaliumsword",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusedcoaliumsword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Infusedcoaliumaxe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusedcoaliumaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Infusedcoaliumshovel",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusedcoaliumshovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Infusedcoaliumhoe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusedcoaliumhoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Lkjop",
+      "type": "loottable",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lkjop"
+    },
+    {
+      "name": "Sexxxtimevergi",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sexxxtimevergi",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Hemenbidosya",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemenbidosya"
+    },
+    {
+      "name": "Chargermenu",
+      "type": "gui",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargermenu",
+      "path": "~/Charger"
+    },
+    {
+      "name": "Chargercode",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargercode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Charger"
+    },
+    {
+      "name": "Chargerblock",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargerblock",
+      "path": "~/Charger"
+    },
+    {
+      "name": "InfernalFuel",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernal_fuel"
     }
   ],
   "variable_elements": [],
@@ -500,9 +618,13 @@
       "item.infused_crystals.lapisium_crystal": "Lapisium Crystal",
       "item.infused_crystals.infused_ironium_axe": "Infused Ironium Axe",
       "item.infused_crystals.infused_lapisium_pickaxe": "Infused Lapisium Pickaxe",
+      "item.infused_crystals.infusedcoaliumsword": "Infused Coalium Sword",
       "item.infused_crystals.infused_ironium_sword": "Infused Ironium Sword",
       "item.infused_crystals.emeraldium_crystal": "Emeraldium Crystal",
+      "item.infused_crystals.infusedcoaliumshovel": "Infused Coalium Shovel",
+      "item.infused_crystals.infusedcoaliumaxe": "Infused Coalium Axe",
       "item.infused_crystals.infused_ironium_crystal": "Infused Ironium Crystal",
+      "item.infused_crystals.hemenbidosya": "Hemenbidosya",
       "item.infused_crystals.infused_lapisium_crystal": "Infused Lapisium Crystal",
       "item.infused_crystals.infused_redstonium_axe": "Infused Redstonium Axe",
       "item.infused_crystals.infused_emeraldium_sword": "Infused Emeraldium Sword",
@@ -513,6 +635,7 @@
       "item.infused_crystals.infused_lapisium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.infused_ironium_shovel": "Infused Ironium Shovel",
       "item.infused_crystals.infused_diamondium_sword": "Infused Diamondium Sword",
+      "item.infused_crystals.infusedcoaliumhoe": "Infused Coalium Hoe",
       "item.infused_crystals.infused_diamondium_crystal": "Infused Diamondium Crystal",
       "item.infused_crystals.infused_diamondium_hoe": "Infused Diamondium Hoe",
       "item.infused_crystals.infused_emeraldium_shovel": "Infused Emeraldium Shovel",
@@ -520,6 +643,7 @@
       "item.infused_crystals.infused_emeraldium_crystal": "Infused Emeraldium Crystal",
       "item.infused_crystals.infused_coalium_crystal": "Infused Coalium Crystal",
       "item.infused_crystals.infused_diamondium_pickaxe": "Infused Diamondium Pickaxe",
+      "item.infused_crystals.infernal_fuel": "Infernal Fuel",
       "item.infused_crystals.ironium_crystal": "Ironium Crystal",
       "item.infused_crystals.infused_emeraldium_hoe": "Infused Emeraldium Hoe",
       "item.infused_crystals.infused_redstonium_sword": "Infused Redstonium Sword",
@@ -527,6 +651,7 @@
       "item.infused_crystals.infused_lapisium_sword": "Infused Lapisium Sword",
       "item.infused_crystals.infused_lapisium_hoe": "Infused Lapisium Hoe",
       "item.infused_crystals.infusedcoaliumpickaxe": "Infused Coalium Pickaxe",
+      "block.infused_crystals.chargerblock": "Chargerblock",
       "item.infused_crystals.infused_diamondium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.diamondium_crystal": "Diamondium Crystal"
     }
@@ -549,6 +674,10 @@
       {
         "name": "Tools",
         "children": []
+      },
+      {
+        "name": "Charger",
+        "children": []
       }
     ]
   },
@@ -565,10 +694,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.infusedcrystals",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200347418
+  "mcreatorVersion": 202200348217
 }
