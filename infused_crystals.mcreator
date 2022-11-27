@@ -539,6 +539,14 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "Hemenbidosya",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemenbidosya"
     }
   ],
   "variable_elements": [],
@@ -561,6 +569,7 @@
       "item.infused_crystals.infusedcoaliumshovel": "Infused Coalium Shovel",
       "item.infused_crystals.infusedcoaliumaxe": "Infused Coalium Axe",
       "item.infused_crystals.infused_ironium_crystal": "Infused Ironium Crystal",
+      "item.infused_crystals.hemenbidosya": "Hemenbidosya",
       "item.infused_crystals.infused_lapisium_crystal": "Infused Lapisium Crystal",
       "item.infused_crystals.infused_redstonium_axe": "Infused Redstonium Axe",
       "item.infused_crystals.infused_emeraldium_sword": "Infused Emeraldium Sword",
