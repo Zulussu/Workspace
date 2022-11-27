@@ -385,188 +385,38 @@
       "locked_code": false,
       "registry_name": "infused_ironium_hoe",
       "path": "~/Tools"
-    },
-    {
-      "name": "InfusedLapisiumPickaxe",
-      "type": "tool",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_lapisium_pickaxe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedLapisiumSword",
-      "type": "tool",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_lapisium_sword",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedLapisiumAxe",
-      "type": "tool",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_lapisium_axe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedLapisiumShovel",
-      "type": "tool",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_lapisium_shovel",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedLapisiumHoe",
-      "type": "tool",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_lapisium_hoe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedEmeraldiumPickaxe",
-      "type": "tool",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_emeraldium_pickaxe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedEmeraldiumSword",
-      "type": "tool",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_emeraldium_sword",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedEmeraldiumAxe",
-      "type": "tool",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_emeraldium_axe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedEmeraldiumShovel",
-      "type": "tool",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_emeraldium_shovel",
-      "path": "~/Tools"
-    },
-    {
-      "name": "InfusedEmeraldiumHoe",
-      "type": "tool",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infused_emeraldium_hoe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Infusedcoaliumpickaxe",
-      "type": "tool",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infusedcoaliumpickaxe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Infusedcoaliumsword",
-      "type": "tool",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infusedcoaliumsword",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Infusedcoaliumaxe",
-      "type": "tool",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infusedcoaliumaxe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Infusedcoaliumshovel",
-      "type": "tool",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infusedcoaliumshovel",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Infusedcoaliumhoe",
-      "type": "tool",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infusedcoaliumhoe",
-      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.infused_crystals.infused_emeraldium_axe": "Infused Emeraldium Axe",
       "item.infused_crystals.infused_redstonium_pickaxe": "Infused Redstonium Pickaxe",
       "item.infused_crystals.coalium_crystal": "Coalium Crystal",
-      "item.infused_crystals.infused_lapisium_axe": "Infused Lapisium Axe",
       "item.infused_crystals.infused_redstonium_shovel": "Infused Redstonium Shovel",
       "item.infused_crystals.infused_redstonium_hoe": "Infused Redstonium Hoe",
       "item.infused_crystals.infused_redstonium_crystal": "Infused Redstonium Crystal",
       "item.infused_crystals.lapisium_crystal": "Lapisium Crystal",
       "item.infused_crystals.infused_ironium_axe": "Infused Ironium Axe",
-      "item.infused_crystals.infused_lapisium_pickaxe": "Infused Lapisium Pickaxe",
-      "item.infused_crystals.infusedcoaliumsword": "Infused Coalium Sword",
       "item.infused_crystals.infused_ironium_sword": "Infused Ironium Sword",
       "item.infused_crystals.emeraldium_crystal": "Emeraldium Crystal",
-      "item.infused_crystals.infusedcoaliumshovel": "Infused Coalium Shovel",
-      "item.infused_crystals.infusedcoaliumaxe": "Infused Coalium Axe",
       "item.infused_crystals.infused_ironium_crystal": "Infused Ironium Crystal",
       "item.infused_crystals.infused_lapisium_crystal": "Infused Lapisium Crystal",
       "item.infused_crystals.infused_redstonium_axe": "Infused Redstonium Axe",
-      "item.infused_crystals.infused_emeraldium_sword": "Infused Emeraldium Sword",
       "block.infused_crystals.charger": "Charger",
       "item.infused_crystals.infused_ironium_pickaxe": "Infused Ironium Pickaxe",
       "item.infused_crystals.infused_ironium_hoe": "Infused Ironium Hoe",
-      "item.infused_crystals.infused_emeraldium_pickaxe": "Infused Emeraldium Pickaxe",
-      "item.infused_crystals.infused_lapisium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.infused_ironium_shovel": "Infused Ironium Shovel",
       "item.infused_crystals.infused_diamondium_sword": "Infused Diamondium Sword",
-      "item.infused_crystals.infusedcoaliumhoe": "Infused Coalium Hoe",
       "item.infused_crystals.infused_diamondium_crystal": "Infused Diamondium Crystal",
       "item.infused_crystals.infused_diamondium_hoe": "Infused Diamondium Hoe",
-      "item.infused_crystals.infused_emeraldium_shovel": "Infused Emeraldium Shovel",
       "item.infused_crystals.redstonium_crystal": "Redstonium Crystal",
       "item.infused_crystals.infused_emeraldium_crystal": "Infused Emeraldium Crystal",
       "item.infused_crystals.infused_coalium_crystal": "Infused Coalium Crystal",
       "item.infused_crystals.infused_diamondium_pickaxe": "Infused Diamondium Pickaxe",
       "item.infused_crystals.ironium_crystal": "Ironium Crystal",
-      "item.infused_crystals.infused_emeraldium_hoe": "Infused Emeraldium Hoe",
       "item.infused_crystals.infused_redstonium_sword": "Infused Redstonium Sword",
       "item.infused_crystals.infused_diamondium_axe": "Infused Redstonium Axe",
-      "item.infused_crystals.infused_lapisium_sword": "Infused Lapisium Sword",
-      "item.infused_crystals.infused_lapisium_hoe": "Infused Lapisium Hoe",
-      "item.infused_crystals.infusedcoaliumpickaxe": "Infused Coalium Pickaxe",
       "item.infused_crystals.infused_diamondium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.diamondium_crystal": "Diamondium Crystal"
     }
@@ -605,7 +455,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.16.5",
+    "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.infusedcrystals",
     "lockBaseModFiles": false

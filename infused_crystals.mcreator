@@ -531,6 +531,14 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "Hjklhl",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hjklhl"
     }
   ],
   "variable_elements": [],
@@ -560,6 +568,7 @@
       "item.infused_crystals.infused_ironium_pickaxe": "Infused Ironium Pickaxe",
       "item.infused_crystals.infused_ironium_hoe": "Infused Ironium Hoe",
       "item.infused_crystals.infused_emeraldium_pickaxe": "Infused Emeraldium Pickaxe",
+      "block.infused_crystals.hjklhl": "Hjklhl",
       "item.infused_crystals.infused_lapisium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.infused_ironium_shovel": "Infused Ironium Shovel",
       "item.infused_crystals.infused_diamondium_sword": "Infused Diamondium Sword",
@@ -586,6 +595,10 @@
     "name": "~",
     "children": [
       {
+        "name": "Tools",
+        "children": []
+      },
+      {
         "name": "Recipes",
         "children": []
       },
@@ -595,10 +608,6 @@
       },
       {
         "name": "GUI",
-        "children": []
-      },
-      {
-        "name": "Tools",
         "children": []
       }
     ]
@@ -621,5 +630,5 @@
     "modElementsPackage": "net.mcreator.infusedcrystals",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202200347418
 }
