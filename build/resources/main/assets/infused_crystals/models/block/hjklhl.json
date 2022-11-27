@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infused_crystals:blocks/screenshot_12",
+    "up": "infused_crystals:blocks/screenshot_12",
+    "north": "infused_crystals:blocks/screenshot_12",
+    "east": "infused_crystals:blocks/screenshot_12",
+    "south": "infused_crystals:blocks/screenshot_12",
+    "west": "infused_crystals:blocks/screenshot_12",
+    "particle": "infused_crystals:blocks/screenshot_12"
+  }
+}
