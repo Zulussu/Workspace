@@ -547,6 +547,53 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "hemenbidosya"
+    },
+    {
+      "name": "Chargermenu",
+      "type": "gui",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargermenu",
+      "path": "~/Charger"
+    },
+    {
+      "name": "Chargercode",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargercode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Charger"
+    },
+    {
+      "name": "Chargerblock",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargerblock",
+      "path": "~/Charger"
     }
   ],
   "variable_elements": [],
@@ -595,6 +642,7 @@
       "item.infused_crystals.infused_lapisium_sword": "Infused Lapisium Sword",
       "item.infused_crystals.infused_lapisium_hoe": "Infused Lapisium Hoe",
       "item.infused_crystals.infusedcoaliumpickaxe": "Infused Coalium Pickaxe",
+      "block.infused_crystals.chargerblock": "Chargerblock",
       "item.infused_crystals.infused_diamondium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.diamondium_crystal": "Diamondium Crystal"
     }
@@ -616,6 +664,10 @@
       },
       {
         "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Charger",
         "children": []
       }
     ]
