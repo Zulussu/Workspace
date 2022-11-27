@@ -533,12 +533,12 @@
       }
     },
     {
-      "name": "Hjklhl",
+      "name": "Chargerr",
       "type": "block",
-      "sortid": 58,
-      "compiles": false,
+      "sortid": 59,
+      "compiles": true,
       "locked_code": false,
-      "registry_name": "hjklhl"
+      "registry_name": "chargerr"
     }
   ],
   "variable_elements": [],
@@ -550,6 +550,7 @@
       "item.infused_crystals.coalium_crystal": "Coalium Crystal",
       "item.infused_crystals.infused_lapisium_axe": "Infused Lapisium Axe",
       "item.infused_crystals.infused_redstonium_shovel": "Infused Redstonium Shovel",
+      "block.infused_crystals.chargerr": "Chargerr",
       "item.infused_crystals.infused_redstonium_hoe": "Infused Redstonium Hoe",
       "item.infused_crystals.infused_redstonium_crystal": "Infused Redstonium Crystal",
       "item.infused_crystals.lapisium_crystal": "Lapisium Crystal",
@@ -568,7 +569,6 @@
       "item.infused_crystals.infused_ironium_pickaxe": "Infused Ironium Pickaxe",
       "item.infused_crystals.infused_ironium_hoe": "Infused Ironium Hoe",
       "item.infused_crystals.infused_emeraldium_pickaxe": "Infused Emeraldium Pickaxe",
-      "block.infused_crystals.hjklhl": "Hjklhl",
       "item.infused_crystals.infused_lapisium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.infused_ironium_shovel": "Infused Ironium Shovel",
       "item.infused_crystals.infused_diamondium_sword": "Infused Diamondium Sword",
