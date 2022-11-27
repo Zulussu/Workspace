@@ -520,6 +520,17 @@
       "locked_code": false,
       "registry_name": "infusedcoaliumhoe",
       "path": "~/Tools"
+    },
+    {
+      "name": "Sexy",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sexy",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -610,5 +621,5 @@
     "modElementsPackage": "net.mcreator.infusedcrystals",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200347418
+  "mcreatorVersion": 202200348217
 }
