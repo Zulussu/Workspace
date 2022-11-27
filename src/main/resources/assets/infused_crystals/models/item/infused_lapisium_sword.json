@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "infused_crystals:items/infused_lapisium_sword"
+  }
+}

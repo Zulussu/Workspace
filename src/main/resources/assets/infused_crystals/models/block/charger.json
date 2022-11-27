@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "infused_crystals:blocks/screenshot_12",
+    "particle": "infused_crystals:blocks/screenshot_12"
+  }
+}

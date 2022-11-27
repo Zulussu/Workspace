@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:EmeraldiumCrystal"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:InfusedEmeraldiumCrystal"
+    },
+    "name": "infused_emerald_smelting",
+    "namespace": "mod"
+  }
+}
