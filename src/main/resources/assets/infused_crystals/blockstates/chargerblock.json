@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "infused_crystals:block/chargerblock"
+    },
+    "facing=east": {
+      "model": "infused_crystals:block/chargerblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "infused_crystals:block/chargerblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infused_crystals:block/chargerblock",
+      "y": 270
+    }
+  }
+}
