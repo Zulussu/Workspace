@@ -538,7 +538,8 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chargerr"
+      "registry_name": "chargerr",
+      "path": "~/chargerr"
     }
   ],
   "variable_elements": [],
@@ -608,6 +609,10 @@
       },
       {
         "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "chargerr",
         "children": []
       }
     ]
