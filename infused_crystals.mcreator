@@ -536,7 +536,7 @@
       "name": "Hjklhl",
       "type": "block",
       "sortid": 58,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "hjklhl"
     }
