@@ -520,6 +520,14 @@
       "locked_code": false,
       "registry_name": "infusedcoaliumhoe",
       "path": "~/Tools"
+    },
+    {
+      "name": "Lkjop",
+      "type": "loottable",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lkjop"
     }
   ],
   "variable_elements": [],
