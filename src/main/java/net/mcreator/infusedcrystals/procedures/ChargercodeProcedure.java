@@ -12,7 +12,9 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.infusedcrystals.item.RedstoniumCrystalItem;
 import net.mcreator.infusedcrystals.item.InfusedRedstoniumCrystalItem;
-import net.mcreator.infusedcrystals.item.InfusedCoaliumCrystalItem;
+import net.mcreator.infusedcrystals.item.InfusedDiamondiumCrystalItem;
+import net.mcreator.infusedcrystals.item.DiamondiumCrystalItem;
+import net.mcreator.infusedcrystals.item.CoaliumCrystalItem;
 import net.mcreator.infusedcrystals.InfusedCrystalsMod;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -120,7 +122,7 @@ public class ChargercodeProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos(x, y, z), (int) (0))).getItem() == RedstoniumCrystalItem.block && new Object() {
+		}.getItemStack(new BlockPos(x, y, z), (int) (0))).getItem() == DiamondiumCrystalItem.block && new Object() {
 			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -224,7 +226,7 @@ public class ChargercodeProcedure {
 									}
 									return _retval.get();
 								}
-							}.getAmount(world, new BlockPos(x, y, z), (int) (2)) + 2));
+							}.getAmount(world, new BlockPos(x, y, z), (int) (2)) + 1));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -258,8 +260,19 @@ public class ChargercodeProcedure {
 						TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 						if (_ent != null) {
 							final int _sltid = (int) (2);
-							final ItemStack _setstack = new ItemStack(InfusedRedstoniumCrystalItem.block);
-							_setstack.setCount((int) 1);
+							final ItemStack _setstack = new ItemStack(InfusedDiamondiumCrystalItem.block);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(IWorld world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									TileEntity _ent = world.getTileEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos(x, y, z), (int) (2)) + 1));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -320,7 +333,7 @@ public class ChargercodeProcedure {
 							}
 							return _retval.get();
 						}
-					}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == InfusedCoaliumCrystalItem.block) {
+					}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == CoaliumCrystalItem.block) {
 						{
 							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
@@ -340,7 +353,7 @@ public class ChargercodeProcedure {
 							TileEntity _tileEntity = world.getTileEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
-								_tileEntity.getTileData().putDouble("fuel", 200);
+								_tileEntity.getTileData().putDouble("fuel", 160);
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -349,7 +362,7 @@ public class ChargercodeProcedure {
 							TileEntity _tileEntity = world.getTileEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
-								_tileEntity.getTileData().putDouble("maxFuel", 200);
+								_tileEntity.getTileData().putDouble("maxFuel", 160);
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
