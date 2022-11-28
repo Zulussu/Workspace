@@ -594,14 +594,6 @@
       "locked_code": false,
       "registry_name": "chargerblock",
       "path": "~/Charger"
-    },
-    {
-      "name": "InfernalFuel",
-      "type": "item",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infernal_fuel"
     }
   ],
   "variable_elements": [],
@@ -643,7 +635,6 @@
       "item.infused_crystals.infused_emeraldium_crystal": "Infused Emeraldium Crystal",
       "item.infused_crystals.infused_coalium_crystal": "Infused Coalium Crystal",
       "item.infused_crystals.infused_diamondium_pickaxe": "Infused Diamondium Pickaxe",
-      "item.infused_crystals.infernal_fuel": "Infernal Fuel",
       "item.infused_crystals.ironium_crystal": "Ironium Crystal",
       "item.infused_crystals.infused_emeraldium_hoe": "Infused Emeraldium Hoe",
       "item.infused_crystals.infused_redstonium_sword": "Infused Redstonium Sword",
