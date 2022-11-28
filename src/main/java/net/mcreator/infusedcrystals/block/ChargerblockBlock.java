@@ -112,7 +112,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("chargerblock");
@@ -188,7 +188,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Chargerblock");
+						return new StringTextComponent("Charger");
 					}
 
 					@Override
@@ -322,7 +322,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Chargerblock");
+			return new StringTextComponent("Charger");
 		}
 
 		@Override

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infused_crystals:coalium_crystal"
+    },
+    {
+      "item": "infused_crystals:coalium_crystal"
+    }
+  ],
+  "result": {
+    "item": "infused_crystals:coalium_stick",
+    "count": 1
+  }
+}
