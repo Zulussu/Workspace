@@ -118,11 +118,11 @@ public class ChargermenuGui extends InfusedCrystalsModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 17) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 29, 19) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 53) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 28, 54) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 115, 35) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 133, 37) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
