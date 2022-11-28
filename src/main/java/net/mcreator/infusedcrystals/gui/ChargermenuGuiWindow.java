@@ -12,7 +12,21 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.infusedcrystals.procedures.AnimProcedure;
+import net.mcreator.infusedcrystals.procedures.Anim9Procedure;
+import net.mcreator.infusedcrystals.procedures.Anim8Procedure;
+import net.mcreator.infusedcrystals.procedures.Anim7Procedure;
+import net.mcreator.infusedcrystals.procedures.Anim6Procedure;
+import net.mcreator.infusedcrystals.procedures.Anim5Procedure;
+import net.mcreator.infusedcrystals.procedures.Anim4Procedure;
+import net.mcreator.infusedcrystals.procedures.Anim3Procedure;
+import net.mcreator.infusedcrystals.procedures.Anim2Procedure;
+import net.mcreator.infusedcrystals.procedures.Anim1Procedure;
+
+import java.util.stream.Stream;
+import java.util.Map;
 import java.util.HashMap;
+import java.util.AbstractMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -53,6 +67,90 @@ public class ChargermenuGuiWindow extends ContainerScreen<ChargermenuGui.GuiCont
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/zero.png"));
+		this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+
+		if (AnimProcedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/one.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim1Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/two.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim2Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/three.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim3Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/four.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim4Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/five.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim5Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/six.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim6Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/seven.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim7Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/eight.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim8Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/nine.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
+		if (Anim9Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infused_crystals:textures/screens/ten.png"));
+			this.blit(ms, this.guiLeft + 60, this.guiTop + 41, 0, 0, 54, 10, 54, 10);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -72,6 +170,7 @@ public class ChargermenuGuiWindow extends ContainerScreen<ChargermenuGui.GuiCont
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
+		this.font.drawString(ms, "Charger", 69, 5, -12829636);
 	}
 
 	@Override

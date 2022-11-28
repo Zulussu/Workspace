@@ -20,8 +20,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 168,
-          "y": 53
+          "x": 154,
+          "y": 55
         }
       },
       {
@@ -34,8 +34,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 168,
-          "y": 89
+          "x": 153,
+          "y": 90
         }
       },
       {
@@ -45,8 +45,161 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 240,
-          "y": 71
+          "x": 258,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "zero.png",
+          "use1Xscale": false,
+          "name": "zero.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "one.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim"
+          },
+          "name": "one.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "two.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim1"
+          },
+          "name": "two.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "three.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim2"
+          },
+          "name": "three.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "four.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim3"
+          },
+          "name": "four.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "five.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim4"
+          },
+          "name": "five.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "six.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim5"
+          },
+          "name": "six.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "seven.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim6"
+          },
+          "name": "seven.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "eight.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim7"
+          },
+          "name": "eight.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nine.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim8"
+          },
+          "name": "nine.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ten.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anim9"
+          },
+          "name": "ten.png",
+          "x": 186,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Charger",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Charger",
+          "x": 195,
+          "y": 42
         }
       }
     ],
@@ -54,8 +207,8 @@
       "sx": 18,
       "sy": 18,
       "ox": 11,
-      "oy": 15,
-      "snapOnGrid": true
+      "oy": 10,
+      "snapOnGrid": false
     }
   }
 }
