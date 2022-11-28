@@ -602,6 +602,35 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "infernal_fuel"
+    },
+    {
+      "name": "Deneme",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deneme",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Charger"
     }
   ],
   "variable_elements": [],

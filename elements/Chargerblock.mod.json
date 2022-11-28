@@ -129,7 +129,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "Chargercode"
+      "name": "Deneme"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
