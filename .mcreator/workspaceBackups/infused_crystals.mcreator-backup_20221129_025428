@@ -558,35 +558,6 @@
       "path": "~/Charger"
     },
     {
-      "name": "Chargercode",
-      "type": "procedure",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chargercode",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Charger"
-    },
-    {
       "name": "Chargerblock",
       "type": "block",
       "sortid": 63,
@@ -931,6 +902,269 @@
         ]
       },
       "path": "~/Charger"
+    },
+    {
+      "name": "CoaliumStick",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalium_stick"
+    },
+    {
+      "name": "RedstoniumPickaxe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonium_pickaxe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "IRedstoniumAxe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_redstonium_axe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "RedstoniumSword",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonium_sword",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "RedstoniumShovel",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonium_shovel",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "RedstoniumHoe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonium_hoe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "DiamondiumPickaxe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondium_pickaxe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "DiamondiumAxe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondium_axe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "DiamondiumSword",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondium_sword",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "DiamondiumShovel",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondium_shovel",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "DiamondiumHoe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondium_hoe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "EmeraldiumPickaxe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldium_pickaxe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "EmeraldiumAxe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldium_axe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "EmeraldiumSword",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldium_sword",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "EmeraldiumShovel",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldium_shovel",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "EmeraldiumHoe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldium_hoe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "LapisiumPickaxe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisium_pickaxe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "LapisiumAxe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisium_axe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "LapisiumSword",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisium_sword",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "LapisiumShovel",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisium_shovel",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "LapisiumHoe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisium_hoe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "CoaliumPickaxe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalium_pickaxe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "CoaliumAxe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalium_axe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "CoaliumSword",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalium_sword",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "CoaliumShovel",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalium_shovel",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "CoaliumHoe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalium_hoe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "CoaliumStickRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalium_stick_recipe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "InfernalFuelrecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernal_fuelrecipe",
+      "path": "~/ToolRecipes"
+    },
+    {
+      "name": "Chargercode",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargercode",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Charger"
     }
   ],
   "variable_elements": [],
@@ -956,6 +1190,7 @@
       "item.infused_crystals.hemenbidosya": "Hemenbidosya",
       "item.infused_crystals.infused_lapisium_crystal": "Infused Lapisium Crystal",
       "item.infused_crystals.infused_redstonium_axe": "Infused Redstonium Axe",
+      "item.infused_crystals.coalium_stick": "Coalium Stick",
       "item.infused_crystals.infused_emeraldium_sword": "Infused Emeraldium Sword",
       "block.infused_crystals.charger": "Charger",
       "item.infused_crystals.infused_ironium_pickaxe": "Infused Ironium Pickaxe",
@@ -980,7 +1215,7 @@
       "item.infused_crystals.infused_lapisium_sword": "Infused Lapisium Sword",
       "item.infused_crystals.infused_lapisium_hoe": "Infused Lapisium Hoe",
       "item.infused_crystals.infusedcoaliumpickaxe": "Infused Coalium Pickaxe",
-      "block.infused_crystals.chargerblock": "Chargerblock",
+      "block.infused_crystals.chargerblock": "Charger",
       "item.infused_crystals.infused_diamondium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.diamondium_crystal": "Diamondium Crystal"
     }
@@ -1006,6 +1241,10 @@
       },
       {
         "name": "Charger",
+        "children": []
+      },
+      {
+        "name": "ToolRecipes",
         "children": []
       }
     ]
