@@ -1,109 +1,20 @@
 {
-  "minecraft:recipes/decorations/campfire": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_coal": "2022-11-28 12:57:23 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond_from_blasting": {
-    "criteria": {
-      "has_diamond_ore": "2022-11-28 12:57:49 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_boots": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_diamond": {
-    "criteria": {
-      "diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_sword": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_chestplate": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2022-11-28 12:57:24 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_axe": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2022-11-28 12:57:23 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond_from_smelting": {
-    "criteria": {
-      "has_diamond_ore": "2022-11-28 12:57:49 +0300"
+      "has_furnace": "2022-11-28 16:03:09 +0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2022-11-28 12:56:59 +0300"
+      "minecraft:taiga": "2022-11-27 21:24:57 +0300",
+      "minecraft:beach": "2022-11-28 15:51:33 +0300"
     },
     "done": false
   },
-  "minecraft:recipes/combat/diamond_leggings": {
+  "minecraft:story/root": {
     "criteria": {
-      "has_diamond": "2022-11-28 12:57:16 +0300"
+      "crafting_table": "2022-11-28 16:03:32 +0300"
     },
     "done": true
   },
