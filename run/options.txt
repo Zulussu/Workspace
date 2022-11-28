@@ -14,7 +14,7 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:false
 toggleCrouch:false
 toggleSprint:false
@@ -36,7 +36,7 @@ renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
-lang:tr_tr
+lang:en_us
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
