@@ -59,7 +59,7 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infusedcrystals.procedures.DenemeProcedure;
+import net.mcreator.infusedcrystals.procedures.FurnacetickProcedure;
 import net.mcreator.infusedcrystals.gui.ChargermenuGui;
 import net.mcreator.infusedcrystals.InfusedCrystalsModElements;
 
@@ -170,7 +170,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			DenemeProcedure.executeProcedure(Stream
+			FurnacetickProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
