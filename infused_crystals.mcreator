@@ -1138,6 +1138,15 @@
         "dependencies": []
       },
       "path": "~/Charger"
+    },
+    {
+      "name": "Chargercraft",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargercraft",
+      "path": "~/Charger"
     }
   ],
   "variable_elements": [],

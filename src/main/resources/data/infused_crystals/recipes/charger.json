@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "1": {
+      "item": "infused_crystals:diamondium_crystal"
+    },
+    "2": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "3": {
+      "item": "infused_crystals:redstonium_crystal"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "infused_crystals:redstonium_crystal"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
+    },
+    "7": {
+      "item": "minecraft:iron_bars"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "infused_crystals:charger",
+    "count": 1
+  }
+}
