@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "infused_crystals:infused_lapisium_crystal"
+    },
+    "1": {
+      "item": "infused_crystals:infused_lapisium_crystal"
+    },
+    "3": {
+      "item": "infused_crystals:coalium_stick"
+    },
+    "5": {
+      "item": "infused_crystals:coalium_stick"
+    }
+  },
+  "result": {
+    "item": "infused_crystals:infused_lapisium_hoe",
+    "count": 1
+  }
+}

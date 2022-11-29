@@ -1,5 +1,5 @@
 {
-  "parent": "infused_crystals:custom/charger",
+  "parent": "infused_crystals:custom/charger2",
   "textures": {
     "all": "infused_crystals:blocks/chargerupanddown",
     "particle": "infused_crystals:blocks/chargerupanddown",
@@ -7,6 +7,6 @@
     "1": "infused_crystals:blocks/darkgray",
     "2": "infused_crystals:blocks/fullpurple",
     "3": "infused_crystals:blocks/lightgray",
-    "missing": "infused_crystals:blocks/chargerupanddown"
+    "missing": "infused_crystals:blocks/11"
   }
 }

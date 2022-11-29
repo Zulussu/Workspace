@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chargerupanddown",
+        "1": "darkgray",
+        "2": "fullpurple",
+        "3": "lightgray",
+        "missing": "11"
+      },
+      "name": "default"
+    }
+  }
+}

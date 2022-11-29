@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "charger:default",
+    "customModelName": "charger2:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Chargerblock",
+    "name": "Charger",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -129,7 +129,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "Deneme"
+      "name": "Furnacetick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
