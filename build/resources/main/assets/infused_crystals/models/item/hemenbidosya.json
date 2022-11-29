@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "infused_crystals:items/infused_ironium_hoe"
-  }
-}
