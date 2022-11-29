@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "infused_crystals:custom/charger",
   "textures": {
-    "all": "infused_crystals:blocks/screenshot_12",
-    "particle": "infused_crystals:blocks/screenshot_12"
+    "all": "infused_crystals:blocks/chargerupanddown",
+    "particle": "infused_crystals:blocks/chargerupanddown",
+    "0": "infused_crystals:blocks/chargerupanddown",
+    "1": "infused_crystals:blocks/darkgray",
+    "2": "infused_crystals:blocks/fullpurple",
+    "3": "infused_crystals:blocks/lightgray",
+    "missing": "infused_crystals:blocks/chargerupanddown"
   }
 }

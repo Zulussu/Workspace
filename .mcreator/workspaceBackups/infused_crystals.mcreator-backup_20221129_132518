@@ -522,68 +522,12 @@
       "path": "~/Tools"
     },
     {
-      "name": "Lkjop",
-      "type": "loottable",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lkjop"
-    },
-    {
-      "name": "Sexxxtimevergi",
-      "type": "procedure",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sexxxtimevergi",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
-      "name": "Hemenbidosya",
-      "type": "item",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hemenbidosya"
-    },
-    {
       "name": "Chargermenu",
       "type": "gui",
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chargermenu",
-      "path": "~/Charger"
-    },
-    {
-      "name": "Chargercode",
-      "type": "procedure",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chargercode",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
       "path": "~/Charger"
     },
     {
@@ -1182,6 +1126,18 @@
       "locked_code": false,
       "registry_name": "infernal_fuelrecipe",
       "path": "~/ToolRecipes"
+    },
+    {
+      "name": "Chargercode",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargercode",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Charger"
     }
   ],
   "variable_elements": [],
@@ -1204,7 +1160,6 @@
       "item.infused_crystals.infusedcoaliumshovel": "Infused Coalium Shovel",
       "item.infused_crystals.infusedcoaliumaxe": "Infused Coalium Axe",
       "item.infused_crystals.infused_ironium_crystal": "Infused Ironium Crystal",
-      "item.infused_crystals.hemenbidosya": "Hemenbidosya",
       "item.infused_crystals.infused_lapisium_crystal": "Infused Lapisium Crystal",
       "item.infused_crystals.infused_redstonium_axe": "Infused Redstonium Axe",
       "item.infused_crystals.coalium_stick": "Coalium Stick",
@@ -1232,7 +1187,7 @@
       "item.infused_crystals.infused_lapisium_sword": "Infused Lapisium Sword",
       "item.infused_crystals.infused_lapisium_hoe": "Infused Lapisium Hoe",
       "item.infused_crystals.infusedcoaliumpickaxe": "Infused Coalium Pickaxe",
-      "block.infused_crystals.chargerblock": "Charger",
+      "block.infused_crystals.chargerblock": "Chargerblock",
       "item.infused_crystals.infused_diamondium_shovel": "Infused Diamondium Shovel",
       "item.infused_crystals.diamondium_crystal": "Diamondium Crystal"
     }

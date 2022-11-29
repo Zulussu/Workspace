@@ -78,9 +78,9 @@ import io.netty.buffer.Unpooled;
 
 @InfusedCrystalsModElements.ModElement.Tag
 public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
-	@ObjectHolder("infused_crystals:chargerblock")
+	@ObjectHolder("infused_crystals:charger")
 	public static final Block block = null;
-	@ObjectHolder("infused_crystals:chargerblock")
+	@ObjectHolder("infused_crystals:charger")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public ChargerblockBlock(InfusedCrystalsModElements instance) {
@@ -98,7 +98,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("chargerblock"));
+			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("charger"));
 		}
 	}
 
@@ -115,7 +115,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("chargerblock");
+			setRegistryName("charger");
 		}
 
 		@Override
@@ -188,7 +188,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Chargerblock");
+						return new StringTextComponent("Charger");
 					}
 
 					@Override
@@ -307,7 +307,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("chargerblock");
+			return new StringTextComponent("charger");
 		}
 
 		@Override
@@ -322,7 +322,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Chargerblock");
+			return new StringTextComponent("Charger");
 		}
 
 		@Override

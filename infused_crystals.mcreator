@@ -536,7 +536,7 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chargerblock",
+      "registry_name": "charger",
       "path": "~/Charger"
     },
     {
