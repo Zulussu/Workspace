@@ -59,7 +59,7 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infusedcrystals.procedures.FurnacetickProcedure;
+import net.mcreator.infusedcrystals.procedures.DenemeProcedure;
 import net.mcreator.infusedcrystals.gui.ChargermenuGui;
 import net.mcreator.infusedcrystals.InfusedCrystalsModElements;
 
@@ -112,7 +112,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+			super(Block.Properties.create(Material.IRON).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("chargerblock");
@@ -170,7 +170,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			FurnacetickProcedure.executeProcedure(Stream
+			DenemeProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
@@ -188,7 +188,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Charger");
+						return new StringTextComponent("Chargerblock");
 					}
 
 					@Override
@@ -322,7 +322,7 @@ public class ChargerblockBlock extends InfusedCrystalsModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Charger");
+			return new StringTextComponent("Chargerblock");
 		}
 
 		@Override
